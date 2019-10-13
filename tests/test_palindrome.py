@@ -13,3 +13,7 @@ def test_for_data_type():
 def test_if_empty():
     """Return a False if function called for empty string"""
     assert is_palindrome("") is False
+
+def test_a_is_palindrome():
+    """Test if is_palindrome returns a True for a"""
+    assert is_palindrome("a") is True
