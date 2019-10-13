@@ -9,3 +9,7 @@ def test_for_data_type():
     with pytest.raises(ValueError):#raises an error of function called for any type but integer
         if not isinstance(is_palindrome(234), str):
             raise ValueError("Function only workS for strings")
+
+def test_if_empty():
+    """Return a False if function called for empty string"""
+    assert is_palindrome("") is False
