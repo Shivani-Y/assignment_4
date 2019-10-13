@@ -33,3 +33,8 @@ def test_laval_is_palindrome():
 def test_toronto_is_palindrome():
     """Test if is_palindrome returns a True for toronto"""
     assert is_palindrome("toronto") is False
+
+def test_a_long_string_is_palindrome():
+    """Test if is_palindrome returns a True for Able was I ere I saw
+      Elba"""
+    assert is_palindrome("Able was I ere I saw Elba") is True

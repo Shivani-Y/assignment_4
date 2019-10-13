@@ -8,8 +8,8 @@ def is_palindrome(value_enter):
         raise ValueError("Only string can be used in the function")
 
     length = len(value_enter)#count length of value_enter
-    d_value = deque(value_enter)#converts value_enter to a deque and assigned to variable
-    d_value.extendleft(value_enter)#adds value_enter to the left of the deque
+    d_value = deque(value_enter.lower())#converts value_enter to a deque and assigned to variable
+    d_value.extendleft(value_enter.lower())#adds value_enter to the left of the deque
     check_1 = list(d_value)#convetrs the deque to list and assigned to variable
     d_value.rotate(length) #in the deque the characters are rotated by the lenght
     check_2 = list(d_value)#converts the new deque to list
