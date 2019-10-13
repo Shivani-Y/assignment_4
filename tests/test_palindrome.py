@@ -17,3 +17,7 @@ def test_if_empty():
 def test_a_is_palindrome():
     """Test if is_palindrome returns a True for a"""
     assert is_palindrome("a") is True
+
+def test_bb_is_palindrome():
+    """Test if is_palindrome returns a True for bb"""
+    assert is_palindrome("bb") is True
