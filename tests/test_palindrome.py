@@ -21,3 +21,7 @@ def test_a_is_palindrome():
 def test_bb_is_palindrome():
     """Test if is_palindrome returns a True for bb"""
     assert is_palindrome("bb") is True
+
+def test_abc_is_palindrome():
+    """Test if is_palindrome returns a True for abc"""
+    assert is_palindrome("abc") is False

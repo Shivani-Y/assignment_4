@@ -19,5 +19,7 @@ def is_palindrome(value_enter):
         check_bool = False
     elif check_1 == check_2:#checks if check_1 and check_2 are equal
         check_bool = True
+    else:#if check_1 and check_2 not equal then check_bool is false
+        check_bool = False
 
     return check_bool
