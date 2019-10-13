@@ -25,3 +25,7 @@ def test_bb_is_palindrome():
 def test_abc_is_palindrome():
     """Test if is_palindrome returns a True for abc"""
     assert is_palindrome("abc") is False
+
+def test_laval_is_palindrome():
+    """Test if is_palindrome returns a True for laval"""
+    assert is_palindrome("laval") is True
