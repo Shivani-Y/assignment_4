@@ -29,3 +29,7 @@ def test_abc_is_palindrome():
 def test_laval_is_palindrome():
     """Test if is_palindrome returns a True for laval"""
     assert is_palindrome("laval") is True
+
+def test_toronto_is_palindrome():
+    """Test if is_palindrome returns a True for toronto"""
+    assert is_palindrome("toronto") is False
